@@ -1,5 +1,6 @@
 html, body {
   min-width: 415px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 /* HEADER BEGIN */
 #logo {
@@ -13,6 +14,12 @@ html, body {
 @media only screen and (max-width: 680px) {
   .logo-hidden {
     display: none;
+  }
+  hr {
+    display: none;
+  }
+  header {
+    margin-bottom: 15px;
   }
 }
 header a {
