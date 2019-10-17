@@ -1,0 +1,19 @@
+/* HEADER BEGIN */
+#logo {
+  width: 400px;
+  height: 200px;
+}
+.logo-facebook {
+  height: 75px;
+  width: 75px;
+}
+@media only screen and (max-width: 650px) {
+  .logo-hidden {
+    display: none;
+  }
+}
+header a {
+  text-decoration: none;
+  color: black;
+}
+/* HEADER END */
