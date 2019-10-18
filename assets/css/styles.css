@@ -131,10 +131,13 @@ footer
 	display:none;
 }
 /* FIN STYLE FOOTER */
-#jum-bg
+/* JUMBOTRON ENDING */
+.jumbotron
 {
   background-color: rgba(137,147,138,1);
 }
+/* JUMBOTRON BEGIN */
+/* NAVBAR BEGIN */
 #navbarchorale {
   color: white;
   font-weight: bold;
@@ -146,5 +149,5 @@ footer
 #logo1
 {
 width: 25px;
-
 }
+/* NAVBAR ENDING */
