@@ -16,6 +16,7 @@ body{
   .logo-hidden {
     display: none;
   }
+
   hr {
     display: none;
   }
@@ -31,12 +32,26 @@ header a {
 /* DEBUT STYLE FOOTER */
 footer
 {
-	background-color: #F2F2F2;
 	display: flex;
 	justify-content: space-around;
 	position: relative;
-	padding-top: 40px;
+	padding-top: 10px;
+  margin: 0;
 }
+
+.fondfooter{
+  background-color: #B5C9CE !important;
+}
+
+.txt_small
+{
+	word-break: normal;
+	margin: auto;
+	width: 90%;
+	border-radius: 15px;
+	margin-top: 10px;
+}
+
 .blockEnLigne
 {
 	display: inline-block;
@@ -44,8 +59,8 @@ footer
 /* Afficher masquer block cookie */
 #container
 {
-	padding-top: 10px;
-	padding-bottom: 10px;
+  margin: 0;
+  padding: 0px;
 }
 #cookie
 {
