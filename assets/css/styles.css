@@ -1,5 +1,5 @@
 
-body{
+html, body {
   min-width: 415px;
   font-family: 'Josefin Sans', sans-serif;
 }
@@ -65,7 +65,7 @@ footer
 #cookie
 {
 	display:none;
-	background: #F2F2F2;
+	background: #B5C9CE;
 	padding:1%;
 }
 #afficher:target #cookie
@@ -93,7 +93,7 @@ footer
 #polConfidence
 {
 	display:none;
-	background: #F2F2F2;
+	background: #B5C9CE;
 	padding:1%;
 }
 #afficher2:target #polConfidence
@@ -121,7 +121,7 @@ footer
 #polInfoPerso
 {
 	display:none;
-	background: #F2F2F2;
+	background: #B5C9CE;
 	padding:1%;
 }
 #afficher3:target #polInfoPerso
