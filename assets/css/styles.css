@@ -16,8 +16,7 @@ html, body {
   .logo-hidden {
     display: none;
   }
-
-  hr {
+  header hr {
     display: none;
   }
   header {
@@ -28,6 +27,31 @@ header a {
   text-decoration: none;
   color: black;
 }
+header {
+  margin-bottom: 1%;
+}
+@media only screen and (max-width: 576px) {
+  header > .row {
+    margin-bottom: 2%;
+  }
+}
+/* NAVBAR BEGIN */
+@media only screen and (max-width: 446px) {
+  nav .navbar-toggler {
+    margin: auto;
+  }
+  /* #navbarchorale ul {
+    padding-left: 10%;
+    padding-right: 10%;
+  } */
+}
+@media only screen and (max-width: 991px) {
+  header nav {
+    width: 30%;
+    margin-left: auto;
+  }
+}
+/* NAVBAR END */
 /* HEADER END */
 /* DEBUT STYLE FOOTER */
 footer
@@ -37,31 +61,22 @@ footer
 	position: relative;
   margin: 0;
 }
-
 .fondfooter{
   background-color: #B5C9CE !important;
 }
-
 .txt_small
 {
 	word-break: normal;
 	margin: auto;
-<<<<<<< HEAD
 	width: auto;
-=======
->>>>>>> Francois
 	border-radius: 15px;
 	margin-top: 10px;
 }
-
 .blockEnLigne
 {
 	display: inline-block;
-<<<<<<< HEAD
   flex-wrap:
-=======
   width: auto;
->>>>>>> Francois
 }
 /* Afficher masquer block cookie */
 #container
@@ -115,10 +130,7 @@ footer
 	top: 100%;
 	left: 50%;
 	transform: translate(-50%);
-<<<<<<< HEAD
-=======
 	width:98%;
->>>>>>> Francois
 	width: 98%;
 }
 .masquer2
