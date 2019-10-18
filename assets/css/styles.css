@@ -16,7 +16,10 @@ html, body {
   .logo-hidden {
     display: none;
   }
-
+  .logo-facebook
+  {
+    margin-bottom: 8px;
+  }
   hr {
     display: none;
   }

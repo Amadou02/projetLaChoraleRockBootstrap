@@ -27,7 +27,37 @@
           <img src="assets/img/facebook-logo.png" alt="logo-facebook" class="logo-facebook">
         </a>
         <hr> <!-- Barre Design -->
-        <a href="infos.html">Infos pratiques</a> <!-- Contact link -->
+        <!-- MODAL BEGIN -->
+        <!-- Button trigger modal -->
+        <button type="button" class="btn" data-toggle="modal" data-target="#exampleModalScrollable">
+          Infos pratiques
+        </button>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalScrollableLabel">Infos pratique</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h1>Anaïs Frapsauce</h1>
+                <img src="assets/img/la-lune-des-pirates-logo-08-2015.png" alt="Logo lune des pirates"/>
+                <div><b>Téléphone : </b><i>03.22.97.31.51</i></div>
+                <div><b>Adresse mail :</b><i>anais.frapsauce@lalune.net</i></div>
+                <div><b>Tarifs :</b><i>135€ Tarif plein,120€ Tarif réduit (étudiants, demandeurs d’emploi, bénéficiaires des minimas sociaux, personnes handicapées)</i></div>
+                <div><b>Horaires de la chorale :</b><i>19 heure à 21 heure</i></div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2570.1345741870555!2d2.3040909473132962!3d49.89627675633059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e784376f8fd2ab%3A0xe55f2865b698a41!2sLa%20Lune%20Des%20Pirates!5e0!3m2!1sfr!2sfr!4v1570456622538!5m2!1sfr!2sfr" width="350" height="400"></iframe>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- MODAL ENDING -->
       </div>
     </div>
     <!-- barre de navigation-->
@@ -124,22 +154,24 @@
     </div>
   </div>
   <!-- JUMBOTRON MOBILE END -->
-  
+
   <!-- MAIN END -->
   <!-- FOOTER BEGIN -->
   <footer>
     <div id="container">
       <div id="afficher" class="blockEnLigne">
         <div id="masquer" class="blockEnLigne">
-          <a class="afficher" href="#afficher">Informations cookies</a>
-          <a class="masquer" href="#masquer">Informations cookies</a>
+          <a class="afficher btn btn-secondary" href="#afficher">Informations cookies</a>
+          <a class="masquer btn btn-secondary" href="#masquer">Informations cookies</a>
           <!-- block cookie -->
-          <div id="cookie">
+          <div class="jumbotron fondfooter" id="cookie">
+            <h1 class="txt_small">Informations cookies</h1>
             <p class="txt_small">
               Nous utilisons les cookies afin de fournir les services et fonctionnalités proposés surnotre site et afin d’améliorer l’expérience de nos utilisateurs.Les cookies sont des données qui sont téléchargés ou stockés sur votre ordinateur ou surtout autre appareil.
               <br>
               En cliquant sur ”J’accepte”, vous acceptez l’utilisation des cookies. Vous pourreztoujours les désactiver ultérieurement.Si vous supprimez ou désactivez nos cookies, vous pourriez rencontrer des interruptionsou des problèmes d’accès au site.
             </p>
+
             <form>
               <button type="button" name="accepter" value="accepter">J'accepte</button>
               <button type="button" name="refuser" value="refuser">Je refuse</button>
@@ -149,24 +181,24 @@
       </div>
       <div id="afficher2" class="blockEnLigne">
         <div id="masquer2" class="blockEnLigne">
-          <a href="#afficher2" class="afficher2"> - Politique de confidentialité</a>
-          <a href="#masquer2" class="masquer2"> - Politique de confidentialité</a>
+          <a href="#afficher2" class="afficher2 btn btn-secondary">Politique de confidentialité</a>
+          <a href="#masquer2" class="masquer2 btn btn-secondary">Politique de confidentialité</a>
           <!-- block info confidentialité -->
-          <div id="polConfidence">
-            <p class="txt_small">
-              Les informations recueillies sur ce formulaire sont enregistrées dans un fichier informatisépar Clean World France pour informations.La base légale du traitement est [base légale du traitement].Les données collectées seront communiquées aux seuls destinataires suivants :Clean World associations régionnales.Les données sont conservées pendant 12 mois.Vous pouvez accéder aux données vous concernant, les rectifier, demander leur effacementou exercer votre droit à la limitation du traitement de vos données.(Vous pouvez retirer à tout moment votre consentement au traitement de vos données ; Vous pouvez également vous opposerau traitement de vos données ; Vous pouvez également exercer votre droit à la portabilitéde vos données)Consultez le site cnil.fr pour plus d’informations sur vos droits.Pour exercer ces droits ou pour toute question sur le traitement de vos données dans cedispositif, vous pouvez contacter (le cas échéant, notre délégué à la protection des données oule service chargé de l’exercice de ces droits) : cleanworld@cleanworldfrance.orgSi vous estimez, après nous avoir contactés, que vos droits « Informatique et Libertés »ne sont pas respectés, vous pouvez adresser une réclamation à la CNIL.
-            </p>
+          <div class="jumbotron fondfooter" id="polConfidence">
+            <h1 class="txt_small">Politique de confidentialité</h1>
+            <p class="txt_small">Les informations recueillies sur ce formulaire sont enregistrées dans un fichier informatisépar La Chorale Rock pour informations.La base légale du traitement est [base légale du traitement].Les données collectées seront communiquées aux seuls destinataires suivants :La Chorale Rock associations régionnales.Les données sont conservées pendant 12 mois.Vous pouvez accéder aux données vous concernant, les rectifier, demander leur effacementou exercer votre droit à la limitation du traitement de vos données.(Vous pouvez retirer à tout moment votre consentement au traitement de vos données ; Vous pouvez également vous opposerau traitement de vos données ; Vous pouvez également exercer votre droit à la portabilitéde vos données)Consultez le site cnil.fr pour plus d’informations sur vos droits.Pour exercer ces droits ou pour toute question sur le traitement de vos données dans cedispositif, vous pouvez contacter (le cas échéant, notre délégué à la protection des données oule service chargé de l’exercice de ces droits) : LaChoraleRock@LaChoraleRock.org Si vous estimez, après nous avoir contactés, que vos droits « Informatique et Libertés »ne sont pas respectés, vous pouvez adresser une réclamation à la CNIL.</p>
           </div>
         </div>
       </div>
       <div id="afficher3" class="blockEnLigne">
         <div id="masquer3" class="blockEnLigne">
-          <a href="#afficher3" class="afficher3"> - Informations personnelles</a>
-          <a href="#masquer3" class="masquer3"> - Informations personnelles</a>
+          <a href="#afficher3" class="afficher3 btn btn-secondary">Informations personnelles</a>
+          <a href="#masquer3" class="masquer3 btn btn-secondary">Informations personnelles</a>
           <!-- bloc infos personnelles -->
-          <div id="polInfoPerso">
+          <div class="jumbotron fondfooter" id="polInfoPerso">
+            <h1 class="txt_small">Informations personnelles</h1>
             <p class="txt_small">
-              Les données personnelles recueillies sur chaque formulaire sont traitées selon des protocoles sécurisés. Clean World informe sur chaque formulaire du traitement des données à caractère personnel et de sa finalité.Les traitements automatisés mis en œuvre par Clean World répondent à des finalités explicites, légitimes et déterminées.Ces finalités sont principalement les suivantes :
+              Les données personnelles recueillies sur chaque formulaire sont traitées selon des protocoles sécurisés. La Chorale Rock informe sur chaque formulaire du traitement des données à caractère personnel et de sa finalité.Les traitements automatisés mis en œuvre par la Chorale Rock répondent à des finalités explicites, légitimes et déterminées.Ces finalités sont principalement les suivantes :
             </p>
             <ul>
               <li>La gestion des relations avec les sympathisants</li>
