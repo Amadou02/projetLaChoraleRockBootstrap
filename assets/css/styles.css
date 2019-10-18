@@ -46,7 +46,10 @@ footer
 {
 	word-break: normal;
 	margin: auto;
+<<<<<<< HEAD
 	width: auto;
+=======
+>>>>>>> Francois
 	border-radius: 15px;
 	margin-top: 10px;
 }
@@ -54,7 +57,11 @@ footer
 .blockEnLigne
 {
 	display: inline-block;
+<<<<<<< HEAD
   flex-wrap:
+=======
+  width: auto;
+>>>>>>> Francois
 }
 /* Afficher masquer block cookie */
 #container
@@ -108,6 +115,10 @@ footer
 	top: 100%;
 	left: 50%;
 	transform: translate(-50%);
+<<<<<<< HEAD
+=======
+	width:98%;
+>>>>>>> Francois
 	width: 98%;
 }
 .masquer2
@@ -136,6 +147,10 @@ footer
 	top: 100%;
 	left: 50%;
 	transform: translate(-50%);
+<<<<<<< HEAD
+=======
+	width:98%;
+>>>>>>> Francois
 	width: 98%;
 }
 .masquer3
