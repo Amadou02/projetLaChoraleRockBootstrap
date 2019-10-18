@@ -47,7 +47,6 @@ footer
 {
 	word-break: normal;
 	margin: auto;
-	width: 90%;
 	border-radius: 15px;
 	margin-top: 10px;
 }
@@ -55,6 +54,7 @@ footer
 .blockEnLigne
 {
 	display: inline-block;
+  width: auto;
 }
 /* Afficher masquer block cookie */
 #container
@@ -76,6 +76,7 @@ footer
 	left: 50%;
 	transform: translate(-50%);
 	width:98%;
+	width: 98%;
 }
 .masquer
 {
@@ -95,7 +96,9 @@ footer
 	display:none;
 	background: #F2F2F2;
 	padding:1%;
+  width: auto;
 }
+
 #afficher2:target #polConfidence
 {
 	display: block;
@@ -104,6 +107,7 @@ footer
 	left: 50%;
 	transform: translate(-50%);
 	width:98%;
+	width: 98%;
 }
 .masquer2
 {
@@ -132,6 +136,7 @@ footer
 	left: 50%;
 	transform: translate(-50%);
 	width:98%;
+	width: 98%;
 }
 .masquer3
 {
