@@ -100,7 +100,7 @@ footer
 	left: 50%;
 	transform: translate(-50%);
 	width:98%;
-	width: 98%;
+
 }
 .masquer
 {
@@ -131,7 +131,7 @@ footer
 	left: 50%;
 	transform: translate(-50%);
 	width:98%;
-	width: 98%;
+
 }
 .masquer2
 {
@@ -162,8 +162,11 @@ footer
 <<<<<<< HEAD
 =======
 	width:98%;
+<<<<<<< HEAD
 >>>>>>> Francois
 	width: 98%;
+=======
+>>>>>>> Francois
 }
 .masquer3
 {
